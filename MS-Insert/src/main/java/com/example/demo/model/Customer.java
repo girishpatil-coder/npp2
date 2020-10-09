@@ -7,6 +7,7 @@ import javax.persistence.Id;
 public class Customer {
 	
 	@Id
+	@Colunm(name="c_id")
 	private int cid;
 	private String cname;
 	private String name;
