@@ -11,6 +11,8 @@ public class MsInsertApplication {
 	public static void main(String[] args) {
 		System.out.println("MS Insert");
 		SpringApplication.run(MsInsertApplication.class, args);
+		
+		System.out.println("Micro Services Project");
 	}
 
 }
