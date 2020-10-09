@@ -18,8 +18,8 @@ public class HomeController {
 	@RequestMapping(value = "/insert",method = RequestMethod.POST)
 	public String addData(@RequestBody Customer cust)
 	{
-		System.out.println("Data insert:"+cust);
 		
+		System.out.println(cust);	
 			s.addCustomer(cust);
 			
 			return "Data Insert";
