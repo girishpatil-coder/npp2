@@ -7,5 +7,7 @@ import com.example.demo.model.Customer;
 
 @Repository
 public interface Homerepo extends JpaRepository<Customer, Integer>{
+  
+  System.out.println("Repository");
 
 }
